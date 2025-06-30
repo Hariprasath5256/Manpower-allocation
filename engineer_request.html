@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Engineer Request Form</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        label, input, textarea, select { display: block; margin: 10px 0; width: 100%; max-width: 400px; }
+    </style>
+</head>
+<body>
+    <h2>Engineer Request Form</h2>
+    <form>
+        <label>Engineer Name:</label>
+        <input type="text" name="engineer_name">
+        <label>Team Number:</label>
+        <input type="text" name="team_number">
+        <label>Date:</label>
+        <input type="date" name="date">
+        <label>Required Days:</label>
+        <input type="number" name="required_days">
+        <label>Required Hours:</label>
+        <input type="number" name="required_hours">
+        <label>Required OT Hours:</label>
+        <input type="number" name="required_ot_hours">
+        <label>Work Details (General Hours):</label>
+        <textarea name="work_details_general"></textarea>
+        <label>Work Details (OT Hours):</label>
+        <textarea name="work_details_ot"></textarea>
+        <button type="submit">Submit Request</button>
+    </form>
+</body>
+</html>

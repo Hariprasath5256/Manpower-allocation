@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mechanic OT Confirmation</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        label, input, select { display: block; margin: 10px 0; width: 100%; max-width: 400px; }
+    </style>
+</head>
+<body>
+    <h2>Mechanic OT Confirmation</h2>
+    <form>
+        <label>Mechanic Name:</label>
+        <input type="text" name="mechanic_name">
+        <label>Date:</label>
+        <input type="date" name="date">
+        <label>OT Hours Reported:</label>
+        <input type="number" name="ot_hours">
+        <label>Confirm OT Hours:</label>
+        <select name="confirmation">
+            <option value="YES">YES</option>
+            <option value="NO">NO</option>
+        </select>
+        <button type="submit">Submit Confirmation</button>
+    </form>
+</body>
+</html>
